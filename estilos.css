@@ -1,0 +1,83 @@
+body {
+    background-image: linear-gradient( rgba(255, 255, 0, 0.898), lightblue, lightgreen);
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    min-height: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+#logomarca {
+    display: block;
+    margin: 0 auto;
+}
+
+.curiosidade {
+    background-image: url(imgs/favo-de-mel.png);
+    border: 1px solid RGB(246, 224, 128);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.curiosidade img {
+    margin-right: 20px;
+    float: left;
+}
+
+.casta-de-abelha {
+    border-radius: 50%;
+    border: 5px double RGB(246, 224, 128);
+}
+.esquerda {
+    float: left;
+    margin-right: 20px;
+}
+.direita {
+    float: right;
+    margin-left: 20px;
+    shape-outside: circle(50%);
+}
+.margin-curiosidade{
+    margin-top: 50px;
+}
+#logomarca-paragraph {
+    background-color: rgb(250, 250, 250, 0.1);
+    box-shadow: 4px 4px 4px #0003;
+    padding: 30px;
+}
+a[href="operarias.html"]:hover {
+    color:cyan;
+}
+a[href="zangoes.html"]:visited {
+    color:indigo;
+    text-decoration: underline;
+}
+a[href="rainha.html"]:link {
+    color:rgb(209, 23, 23);
+    text-decoration: none;
+}
+a[href^="https"]:active {
+    color:grey;
+    background-color: rgba(32, 15, 15, 0.514);
+    text-decoration: none;
+}
+body p:last-of-type {
+    text-align: right;
+}
+img:not(img[alt]) {
+    border-color: red;
+}
+.rainha {
+    float: left;
+    margin-right: 20px;
+    shape-outside: circle(50%);
+    margin-bottom: 20px;
+}
+#imgRainha {
+    clear: left;
+}
